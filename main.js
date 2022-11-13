@@ -9,6 +9,8 @@ function displayAdeline() {
     '"What do you call poop that looks like turtles?"' +
     "<br>" +
     "<br>" +
+    '<img class="potato" src="./res/potato.jpg" />' +
+    "<br>" +
     "<u>" +
     "Skills" +
     "</u>" +
