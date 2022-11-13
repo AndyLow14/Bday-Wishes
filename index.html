@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta property="og:title" content="Birthday Wishes!!!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/sprites/sprite0.jpg" />
+    <meta
+      property="og:url"
+      content="https://andylow14.github.io/the-professionals-portfolio"
+    />
+    <title>Birthday Wishes!!!</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1438e6301e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="head">
+        <div class="title">Birthday Wishes.com!!!</div>
+        <div class="dropdown">
+          <button class="color-select">THEME</button>
+          <div class="dropdown-content">
+            <button class="color-choose pink" onclick="changePink()" id="selector">
+              CANDY
+            </button>
+            <button
+              class="color-choose blue"
+              onclick="changeBlue()"
+              id="selector"
+            >
+              OCEAN
+            </button>
+            <button
+              class="color-choose green"
+              onclick="changeGreen()"
+              id="selector"
+            >
+              NATURE
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="subtitle">From that one IT friend</div>
+      <div class="container">
+        <!-- Character Selection -->
+        <div class="buttons-vertical">
+          <button onclick="displayAdeline()" class="contact-us-button" id="button-ad">
+            <div id="shadowBox">
+              <div class="rainbow rainbow_text_animated">
+                <i class="fa-solid fa-cow"></i></i></i>ADELINE | AD</div>
+            </div>
+          </button>
+          <button disabled>
+            <i class="fa-solid fa-fire-burner"></i></i>THE WOK
+          </button>
+          <button disabled>
+            <i class="fa-solid fa-user-ninja"></i></i>JOHN XINA
+          </button>
+          <button disabled>
+            <i class="fa-solid fa-ice-cream"></i></i>BEAN QILIN
+          </button>
+          <button disabled>
+            <i class="fa-solid fa-car-side"></i></i>YEELONG MUSK
+          </button>
+        </div>
+        <div class="summary-container" id="summary-container">
+          <div class="summary-title" id="summary-title">
+            A Digital Birthday Wish
+          </div>
+          <div></div>
+          <div class="summary-body" id="summary-body">
+            <img class="cat-photo" id="cat-photo" src="./res/pixel-cat.gif" />
+            <div class="summary-text" id="summary-text">
+              A digital birthday card made by me, cuz plain text just ain't gonna cut it. <br>
+              Finally putting my IT degree to good use i guess? <br><br>
+              Anyways, Happy Birthday!!! <br>
+              Here is my poor attempt at making it cool :') <br><br>
+              ~ Andy
+            </div>
+          </div>
+          <div class="summary-img">
+            <img id="sprite" />
+          </div>
+          <div id="hidden"></div>
+          <button
+            class="select-character"
+            id="characterSelect"
+            onclick="goToPage()"
+          >
+            SELECT
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
