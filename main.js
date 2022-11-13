@@ -2,33 +2,40 @@ function displayAdeline() {
   selected();
 
   // Insert your full name here
-  document.getElementById("summary-title").innerHTML = "Adeline";
+  document.getElementById("summary-title").innerHTML = "ADELINE";
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
-    '"Don\'t give up on your dreams, go back to sleep."' +
+    '"What do you call poop that looks like turtles?"' +
     "<br>" +
     "<br>" +
     "<u>" +
     "Skills" +
     "</u>" +
     "<br>" +
-    " CSS/HTML 56/100" +
+    "BIOMED H1/100" +
     "<br>" +
-    "Java 89/100" +
+    "SLEEPING 100/100" +
     "<br>" +
-    "C 0/100" +
+    "DRY HUMOUR 6.9/100" +
     "<br>" +
-    "RGB Keyboard +500 HP" +
+    "NINTENDO SWITCH +50 ATK" +
     "<br>" +
     "<br>" +
     "<u>" +
-    "Projects" +
+    "Met at" +
     "</u>" +
     "<br>" +
-    "| Walorant | Tesla Hacking |" +
+    "Outside Hareruya, Lincoln Square" +
     "<br>" +
-    "| Nasa Artemis 1 | MYKI Alert App |";
+    "<br>" +
+    "<u>" +
+    "Date met" +
+    "</u>" +
+    "<br>" +
+    "Sometime in July 2022." +
+    "<br>" +
+    "After the Hareruya day we studied tgt and I installed the Anya Cursor, we went to Brunetti's with Calvin and talked about Javier."
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./res/sprite-ad.png";
@@ -70,7 +77,10 @@ function changeGreen() {
 
 // Used to check if any name is selected
 function selected() {
-  // Adds borders to character card
+  
+  if (screen.width > 1000) {
+  
+  // Adds borders to character card only on desktop
   const title = document.getElementById("summary-title");
   title.style.borderBottom = "solid 4px var(--black)";
   title.style.borderRight = "solid 4px var(--black)";
@@ -82,6 +92,8 @@ function selected() {
 
   const hidden = document.getElementById("hidden");
   hidden.style.borderRight = "solid 4px var(--black)";
+
+  }
 
   // Removes image
   const image = document.getElementById("cat-photo");

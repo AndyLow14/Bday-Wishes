@@ -24,6 +24,13 @@ html * {
   font-weight: 700;
   padding: 10px 30px 0px 20px;
   margin-bottom: 0px;
+  text-decoration: none;
+  color: #121212;
+  transition: all 0.2s ease;
+}
+
+.title:hover {
+    font-size: 76px;
 }
 
 .subtitle {
@@ -294,12 +301,27 @@ button:active:enabled {
     align-items: center;
   }
   .summary-container {
+    display: flex;
+    flex-direction: column;
     margin-left: 30vw;
     margin-right: 30vw;
+  }
+  .summary-img {
+    margin: 10px auto 30px auto;
   }
   .summary-title {
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 48px;
+    border-right: 0px;
+    text-align: center;
+  }
+  .summary-body {
+    padding: 40px 40px 40px 40px;
+  }
+  .summary-text {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
