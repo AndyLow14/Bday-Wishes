@@ -99,13 +99,12 @@ html * {
 .container {
   display: flex;
   justify-content: space-evenly;
-  margin: 5vh 10vw 5vh 10vw;
+  margin: 5vh 5vw 5vh 5vw;
 }
 
 .buttons-vertical {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .summary-container {
@@ -151,7 +150,8 @@ img {
 }
 
 .potato {
-  width: 700px;
+  width: 400px;
+  height: auto;
   margin: 0px auto 0px auto;
   display: block;
 }
@@ -278,6 +278,16 @@ button:active:enabled {
     display: flex;
     height: 100%;
     flex-direction: column;
+  }
+  .cat-photo {
+    height: 500px;
+    width: auto;
+  }
+  .potato {
+    width: 700px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    display: block;
   }
   .container {
     display: flex;
