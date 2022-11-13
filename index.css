@@ -321,12 +321,12 @@ button:active:enabled {
     padding: 40px 60px 40px 60px;
   }
   .summary-text {
-    font-size: 34px;
+    font-size: 42px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
   .bday-card {
-    font-size: 34px;
+    font-size: 42px;
     margin: 40px 0px 40px 0px;
     text-align: center;
     font-weight: 600;
