@@ -30,7 +30,7 @@ html * {
 }
 
 .title:hover {
-    font-size: 76px;
+  font-size: 76px;
 }
 
 .subtitle {
@@ -267,6 +267,7 @@ button:active:enabled {
   }
 }
 
+
 @media (max-width: 1000px) {
   .content {
     display: flex;
@@ -317,11 +318,21 @@ button:active:enabled {
     text-align: center;
   }
   .summary-body {
-    padding: 40px 40px 40px 40px;
+    padding: 40px 60px 40px 60px;
   }
   .summary-text {
-    font-size: 32px;
+    font-size: 34px;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .bday-card {
+    font-size: 34px;
+    margin: 40px 0px 40px 0px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .select-character {
+    font-size: 34px;
+    font-weight: 600;
   }
 }
