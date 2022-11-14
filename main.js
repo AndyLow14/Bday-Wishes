@@ -9,8 +9,6 @@ function displayAdeline() {
     '"What do you call poop that looks like turtles?"' +
     "<br>" +
     "<br>" +
-    '<img class="potato" src="./res/potato.jpg" />' +
-    "<br>" +
     "<u>" +
     "Skills" +
     "</u>" +
@@ -64,6 +62,9 @@ function displayAdeline() {
   document.getElementById("sprite").src = "./res/sprite-ad.png";
   var y = document.getElementById("bday-card-content");
   y.style.padding = "40px 60px 70px 60px";
+
+  // Show the carousel
+  document.getElementById("carouselExampleIndicators").style.display = "block";
 }
 
 function changeBlue() {

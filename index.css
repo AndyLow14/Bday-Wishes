@@ -13,6 +13,7 @@
 
 html * {
   font-family: Cozette;
+  line-height: normal;
 }
 
 .head {
@@ -100,7 +101,7 @@ html * {
   flex-direction: column;
 }
 
-.container {
+.content-container {
   display: flex;
   justify-content: space-evenly;
   margin: 5vh 5vw 5vh 5vw;
@@ -239,6 +240,35 @@ button:active:enabled {
   transform: translateX(7px) translateY(7px);
 }
 
+/* Carousel Styles */
+.carousel {
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: solid 10px #121212;
+  border-radius: 10px;
+}
+.carousel-indicators {
+  gap: 10px;
+}
+.carousel-indicators > button {
+  box-shadow: none;
+}
+.carousel-item {
+  height: 32rem;
+  background: #777;
+}
+.carousel-control-prev, .carousel-control-next {
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow: none;
+}
+.carousel-control-prev:hover:enabled, .carousel-control-next:hover:enabled {
+  background: white;
+  background-color: transparent;
+}
+
+
 #shadowBox {
   background-color: rgb(0, 0, 0);
   /* Fallback color */
@@ -307,7 +337,7 @@ button:active:enabled {
     margin: 0px auto 0px auto;
     display: block;
   }
-  .container {
+  .content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -350,10 +380,10 @@ button:active:enabled {
     text-align: center;
   }
   .summary-body {
-    padding: 40px 60px 40px 60px;
+    padding: 40px;
   }
   .summary-text {
-    font-size: 42px;
+    font-size: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
