@@ -49,7 +49,7 @@ html * {
 
 .color-choose {
   width: 120px;
-  font-size: 32px;
+  font-size: 24px;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: auto;
@@ -245,7 +245,7 @@ button:active:enabled {
   display: none;
   margin-top: 20px;
   margin-bottom: 50px;
-  border: solid 10px #121212;
+  border: solid 5px #121212;
   border-radius: 10px;
 }
 .carousel-indicators {
@@ -255,17 +255,22 @@ button:active:enabled {
   box-shadow: none;
 }
 .carousel-item {
-  height: 32rem;
+  height: 24rem;
   background: #777;
 }
 .carousel-control-prev, .carousel-control-next {
   margin-top: auto;
   margin-bottom: auto;
   box-shadow: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: var(--green);
 }
 .carousel-control-prev:hover:enabled, .carousel-control-next:hover:enabled {
-  background: white;
-  background-color: transparent;
+  background: var(--green);
 }
 
 
@@ -350,6 +355,9 @@ button:active:enabled {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .color-choose {
+    font-size: 32px;
+  }
   button,
   .contact-us-button {
     font-size: 38px;
@@ -397,5 +405,11 @@ button:active:enabled {
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 45px;
+  }
+  .carousel {
+    border: solid 10px #121212;
+  }
+  .carousel-item {
+    height: 32rem;
   }
 }
