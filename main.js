@@ -58,7 +58,7 @@ function displayAdeline() {
     "Oh yeah, hope you like the Kirby too, was gonna make a knife for it, but ceebs." +
     "<br>" +
     "<br>" +
-    "P.S. Yes, I did make this website green on purpose."
+    "P.S. Yes, I did make this website green on purpose. Shrek's green is Green #C4D300."
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./res/sprite-ad.png";
@@ -91,11 +91,11 @@ function changePink() {
 
 function changeGreen() {
   var y = document.getElementById("summary-title");
-  y.style.backgroundColor = "#77DD77";
+  y.style.backgroundColor = "#C4D300";
   var x = document.querySelectorAll("button");
   x.forEach((button) => {
     if (button.id != "selector" && button.id != "button-ad") {
-      button.style.backgroundColor = "#77DD77";
+      button.style.backgroundColor = "#C4D300";
     }
   });
 }
